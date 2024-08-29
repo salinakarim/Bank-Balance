@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amount Balance</title>
+    <link rel="stylesheet" href="amount.css">
+    <style>
+        .title{
+            font-size: 60px;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bolder;
+            color: darkorange;
+            background-color: darkblue;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="title">Your Balance Management</h1>
+
+    <div class="balance-container">
+        <!-- deposit container -->
+        <div class="deposit-balance">
+            <h1>Deposit Balance</h1>
+            <p id="deposit_balance">00</p>
+        </div>
+        <!-- withdraw container -->
+         <div class="Withdraw-balance">
+            <h1>Withdrow Balance</h1>
+            <p id="withdraw_balance">00</p>
+         </div>
+         <!-- total container -->
+          <div class="total-balance">
+            <h1>total balance</h1>
+            <p id="deposit_total">00</p>
+          </div>
+
+    </div>
+
+    <!-- input section -->
+
+<div class="amount-container">
+    <div class="deposit-amount">
+        <input type="number" name="" id="deposit_amount" placeholder="Deposite amount">
+        <button id="deposit_button" type="submit">submit</button>
+    </div>
+<div class="withdraw-amount">
+    <input type="number" name="" id="withdraw_amount" placeholder="Withdraw Amount">
+    <button id="withdraw_button" type="submit">Submit</button>
+
+</div>
+
+</div>
+
+    <script src="amount.js"></script>
+</body>
+</html>
