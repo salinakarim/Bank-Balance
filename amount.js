@@ -23,7 +23,7 @@ document.getElementById('deposit_button').addEventListener('click',function(){
     return 0;
 
   }
-  depositTotal.innerHTML =totalDepositBalance;
+  depositTotal.innerHTML =depositTotalNumber + depositAmount;
 
 
   depositFild.value = " "

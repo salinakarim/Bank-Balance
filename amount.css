@@ -67,6 +67,17 @@ p{
     justify-content: center;
     gap: 10px;
 }
+.title{
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: darkorange;
+    background-color: darkblue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 input{
     padding: 10px 20px;
     font-size: 12px;
@@ -89,4 +100,53 @@ button{
 button:hover{
     background-color:darkred;
     transform: scale(1.105);
+}
+
+/* resposive style started here */
+
+
+@media screen  and (max-width:576px){
+    .amount-container, .balance-container{
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 20px 0px;
+    }
+    .amount-container{
+        margin-top: 10px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .deposit-balance,.Withdraw-balance,.total-balance,.deposit-amount,.withdraw-amount{
+        width: 300px;
+        font-size: 15px;
+    }
+    input{
+        font-size: 10px;
+    }
+    button{
+        padding: 5px 10x;
+    }
+
+}
+@media screen and (min-width:576px) and (max-width:762px){
+    .amount-container,.balance-container{
+        flex-direction: column;
+        gap: 10px;
+        height: auto;
+        padding: 20px 0px;
+    }
+    
+}
+@media screen and (min-width:762px) and (max-width:1080px){
+    .amount-container,.balance-container{
+        gap: 10px;
+        height: auto;
+        padding: 20px 0px;
+
+    }
+   
+
+    
 }

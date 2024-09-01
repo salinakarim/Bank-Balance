@@ -55,3 +55,40 @@ h2{
     font-weight: bolder;
     color: darkred;
 }
+
+/* Responsive style started here */
+
+ @media screen and (max-width:576px){
+    input{
+        width: 250px;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    
+ }
+
+ @media screen and (min-width:576px) and (max-width:992px) {
+    input{
+        width: 400px;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 5px;
+       
+
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 15px;
+        border-radius: 5px;
+
+    }
+    
+ }
+    
+ 
